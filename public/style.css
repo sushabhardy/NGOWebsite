@@ -1,0 +1,310 @@
+@font-face {
+	font-family:'Open Sans', sans-serif;
+	font-style: normal;
+	}
+
+body
+{
+
+overflow-x:hidden;
+}
+
+/*---------------------------------------------------header----------------------------------------------------------------------*/
+#header {
+	width:100%;
+	height:182px;
+	top:0px;
+	left:0px;
+	}
+#header1
+{width:100%;
+height:59px;
+background-color:#303030;
+}
+#menu
+{
+height:59px;
+width:980px;
+margin-left:auto;
+margin-right:auto;
+
+}
+
+#menu div:hover
+{background-color:#0066FF;
+}
+#header2
+{
+height:123px;
+width:980px;
+margin-left:auto;
+margin-right:auto;
+}
+#logo
+{width:408px;
+height:123px;
+float:left;
+
+}
+#other
+{width:570px;
+height:123px;
+float:right;
+}
+#other1
+{width:453px;
+ height:123px;
+ float:left;}
+#other2
+{width:117px;
+ height:123px;
+ float:right;}
+  #contactsign2
+  {width:193px;
+  height:40px;
+    float:right;
+	padding-right:8px;
+	padding-top:40px;}
+	
+/*--------------------------------------------------------dropdown-----------------------------------------------------------*/
+ul{
+        padding: 0;
+        list-style: none;
+        background:#303030;
+    }
+    ul li{
+        display: inline-block;
+        position: relative;
+        line-height: 51px;
+        text-align: center;
+    }
+    ul li a{
+        display: block;
+        padding-top:8px;
+		padding-right:35px;
+		padding-left:40px;
+        color:white;
+        text-decoration: none;
+		font-weight:bold;
+		font-size:15px;
+		font-family: 'Open Sans', sans-serif;
+    }
+
+
+    ul.mainmenu li a:hover{
+        color:#white;
+        background:#47A3FF;
+		
+  }
+	
+    ul li ul.dropdown{
+		border-top:10px solid white;
+         background:#A3D1FF;
+        display: none;
+        position: absolute;
+        z-index:100;
+    }
+	#aboutdrop
+	{width:151px;
+	right:-5px;
+	}
+	#gallerydrop
+	{width:304px;
+	right:-75px;
+	
+	}
+	ul li ul li a
+	{font-size:13px;
+	}
+	
+	ul li ul li{
+	height:35px;
+	line-height:28px;
+	}
+
+	
+    ul li:hover ul.dropdown{
+    display: block;	
+    }
+   
+   ul li ul.dropdown li
+   { 
+        display:block;
+    }	
+	   
+   ul li ul.dropdown li a:hover
+   { color:#white;
+        background:#47A3FF;
+		height:35px;
+		
+    }
+
+
+/*----------------------------------------------center---------------------------------------------------------------*/
+#center
+{ 
+position:relative;
+width:980px;
+margin-left:auto;
+margin-right:auto;
+ }
+#yellowaero
+{height:81px;
+width:980px;
+}
+#bluemagazine
+{height:122px;
+width:980px;}
+#blackclickhere
+{height:327px;
+width:980px;}
+#blackpic
+{width:217px;
+height:327px;
+float:left;
+}
+#fbblog
+{width:520px;
+height:230px;
+float:left;}
+#discountpartner
+{height:207px;
+width:980px;}
+#video1
+{height:221px;
+width:980px;
+border-bottom:1px dotted black;}
+#videopic
+{height:220px;
+width:314px;
+float:left;}
+#videocaption
+{padding-left:10px;
+height:220px;
+width:656px;
+float:left;}
+#captionlarge
+{height:83px;
+width:656px;
+padding-top:5px;}
+#captionsmall
+{height:126px;
+width:656px;}
+.fontlarge
+{font-weight:normal;
+font-variant:normal;
+font-family:Impact, impact-w01-2010, impact-w02-2010, impact-w10-2010, sans-serif;
+font-size:57px;
+font:normal normal normal 57px/1.1em Impact,impact-w01-2010,impact-w02-2010,impact-w10-2010,sans-serif;
+color:black;}
+p.fontsmall
+{font: normal normal normal 14px/1.3em 'Open Sans',sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;}
+  
+  #facebook
+  {height:175px;
+  width:980px;
+  }
+  #greypartner
+  {height:198px;
+  width:980px;}
+  /*==========----------------------------------------------------footer-----------------------------------------------------------------------*/
+  #map
+  {background-color:#D0D0D0;
+  border-top:20px solid white; 
+  height:367px;
+  width:980px;}
+  
+  #upper
+  {height:300px;
+  width:980px;}
+  #lower{
+  height:27px;
+  width:134px;
+  padding-left:423px;
+  padding-right:423p;
+ 
+  }
+  
+ #upleft
+ {height:290px;
+  width:224px;
+  float:left;
+  text-align:left;
+  padding-left:20px;
+  padding-top:10px;
+  }
+  #contactsign
+  {width:193px;
+  height:40px;
+    }
+   
+   
+ #fiximg
+ {width:40px;
+ height:40px;
+ padding-right:11px;
+ float:left;
+ }
+   
+ #fiximg1
+ {width:40px;
+ height:40px;
+ float:right;
+ }
+ #smallimg
+ {width:28px;
+ height:28px;
+ padding-right:7px;
+ float:left;}
+  #smallimg1
+ {width:28px;
+ height:28px;
+ float:right;}
+ #upcenter
+ {height:300px;
+  width:386px;
+  float:left;
+  padding-top:17px;
+  }
+   
+ #upright
+ {height:290px;
+  width:193px;
+  float:left;
+  text-align:center;
+  padding-top:10px;
+  padding-left:80px;
+  }
+  p.greenfont
+  {font-weight:bold;
+  font-size:24px;
+  font-family: helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
+  color:#339900;
+  line-height:10px;}
+  p.greensmallfont
+  {font-weight:bold;
+  font-size:16px;
+  font-family: helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
+  color:#339900;
+  line-height:10px;}
+  p.whitesmallfont
+  {font: normal normal normal 14px/1.3em 'Open Sans',sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color:white;}
+   p.whitelargefont
+  {font: normal normal normal 14px/1.3em 'Open Sans',sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color:white;}

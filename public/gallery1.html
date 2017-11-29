@@ -1,0 +1,543 @@
+
+<head>
+	<meta charset="UTF-8">
+	<title>Mauli-NGO | GALLERY</title>
+	<link rel="stylesheet" href="style.css" type="text/css">
+		<link rel="stylesheet" href="style1.css" type="text/css">
+	<link href="themes/2/js-image-slider.css" rel="stylesheet" type="text/css" />
+    <script src="themes/2/js-image-slider.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen, projection" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script language="javascript" type="text/javascript" src="js/popup2.2.js"></script> 
+    
+    <script language="javascript" type="text/javascript">
+    		$(document).ready(function(){
+    			$(".popup").popup({
+					transparentLayer : true,
+					gallery : true,
+					galleryTitle : "Gallery1 Title",
+					imgaeDesc : true,
+					galleryCounter : true,
+					imageDesc : true,
+					autoSize : false,
+					boxHeight : 530,
+					boxWidth : 900,
+					shadowLength : 0,
+					transition : 0,
+					onOpen : function() {
+						console.log("opened the box .popup");
+					},
+					onClose : function() {
+						console.log("closed the box .popup");
+					}
+				});
+				
+				$(".popup2").popup({
+					transparentLayer : true,
+					gallery : false,
+					popupID : "popupBox2",
+					ajax : true,
+					overflow: "hidden",
+					shadowLength : 10,
+					hasCloseButton : false,
+					onOpen : function() {
+						console.log("opened the box .popup2");
+					},
+					onClose : function() {
+						console.log("closed the box .popup2");
+					}
+				});
+				$(".popup3").popup({
+					transparentLayer : true,
+					gallery : false,
+					popupID : "popupBox3",
+					contentClass : "popupBox3",
+					onOpen : function() {
+						console.log("opened the box .popup3");
+					},
+					onClose : function() {
+						console.log("closed the box .popup3");
+					}
+				});
+
+			});
+			
+
+    </script>
+
+
+</head>
+
+<body>
+		<div id="header">
+		<div id="header1">
+			<div id="menu"><ul id="menusize" class="mainmenu">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT &#9662;</a>
+		<ul class="dropdown" id="aboutdrop">
+                <li><a href="about1.html"><span class="www">About</span></a></li>
+                <li><a href="about2.html">Vision</a></li>
+            </ul></li>
+        <li>
+            <a href="projects.html">PROJECTS </a>
+            
+        </li>
+        <li><a href="getinvolved.html">GET INVOLVED</a></li>
+		 <li><a href="gallery.html">GALLERY &#9662;</a>
+		 <ul class="dropdown" id="gallerydrop">
+                <li><a href="gallery1.html">Launching Ceremony</a></li>
+                <li><a href="gallery2.html">Press Releases</a></li>
+                <li><a href="gallery3.html">Event1</a></li>
+				<li><a href="gallery4.html">Event2</a></li>
+                <li><a href="gallery5.html">Event3</a></li>
+                <li><a href="gallery6.html">Event4</a></li>
+				<li><a href="gallery7.html">Event5</a></li>
+            </ul></li>
+		  <li><a href="contactus.html">CONTACT US</a></li>
+    </ul></div>
+			
+		</div>
+		<div id="header2">
+			<div id="logo">
+			<img src="images/a.png" width="408px" height="123px"/>
+			</div>
+			<div id="other">
+				<div id="other1">
+				<div id="contactsign2">
+							<div id="fiximg">
+							<a href="https://www.facebook.com/Mauli-NGO">
+							<img src="Images/fb.jpg" height="40px" width="40px"/></a>
+							</div>
+							<div id="fiximg">
+							<a href="http://www.twitter.com/Mauli-NGO">
+							<img src="Images/twitter.jpg" height="40px" width="40px"/></a>
+							</div>
+							<div id="fiximg">
+							<a href="https://www.youtube.com/user/Mauli-NGO">
+							<img src="Images/youtubee.jpg" height="40px" width="40px"/></a>
+							</div>
+							<div id="fiximg1">
+							<a href="https://instagram.com/Mauli-NGO">
+							<img src="Images/camera.jpg" height="40px" width="40px"/></a>
+							</div>
+						</div>
+				</div>
+				<div id="other2">
+				<a href="getinvolved.html">
+				<img src="images/b.jpg" width="117px" height="112px"/>
+				</a>
+				</div>
+			</div>
+				
+		</div></div>
+		<div id="center">
+			<div id="bluesection">
+				<div id="bblue">
+				<span class="bluefont">Gallery</span>
+				</div>
+			</div>
+			<div id="pinksection">
+				<div id="ppink1">
+					<span class="pinkfont1">Launching Ceremony</span>
+				</div>
+				<div id="fbyousign">
+					<div id="smallimg">
+							<a href="https://www.facebook.com/Mauli-NGO">
+							<img src="Images/fb1.jpg" height="28px" width="28px"/></a>
+					</div>
+					<div id="smallimg">
+							<a href="https://www.youtube.com/user/Mauli-NGO">
+							<img src="Images/youtubee1.jpg" height="28px" width="28px"/></a>
+					</div>
+					
+				</div>
+			</div>
+			
+			<div id="photolist">
+				<div id="photoleft">
+				<div id="galleryimg">
+					<div id="p1">
+						<img src="Images/gallery/gallery1/pc1.jpg" width="308" height="435" alt="" name="Images/gallery/gallery1/pc1.jpg" class="popup" title="GALLERY" longdesc="<p>Data</p>" />
+						<div id="ptext">
+						<p class="common">Data</p>
+						</div>	
+					</div>
+					<div id="space">
+					</div>
+				</div>
+				
+				<div id="galleryimg">
+					<div id="p1">
+						<img src="Images/gallery/gallery1/pc2.jpg" width="308" height="204" alt="" name="Images/gallery/gallery1/pc2.jpg" class="popup" title="GALLERY" longdesc="<p>Data</p>" />
+						<div id="ptext">
+						<p class="common">Data</p>
+						</div>	
+					</div>
+					<div id="space">
+					</div>
+				</div>
+				
+				<div id="galleryimg">
+					<div id="p1">
+						<img src="Images/gallery/gallery1/pc3.jpg" width="308" height="204" alt="" name="Images/gallery/gallery1/pc3.jpg" class="popup" title="GALLERY" longdesc="<p>Data</p>" />
+						<div id="ptext">
+						<p class="common">Data.</p>
+						</div>	
+					</div>
+					<div id="space">
+					</div>
+				</div>
+				
+				<div id="galleryimg">
+					<div id="p1">
+						<img src="Images/gallery/gallery1/pc4.jpg" width="308" height="435" alt="" name="Images/gallery/gallery1/pc4.jpg" class="popup" title="GALLERY" longdesc="<p>Data</p>" />
+						<div id="ptext">
+						<p class="common">Data</p>
+						</div>	
+					</div>
+					<div id="space">
+					</div>
+				</div>
+				
+				<div id="galleryimg">
+					<div id="p1">
+						<img src="Images/gallery/gallery1/pc5.jpg" width="308" height="204" alt="" name="Images/gallery/gallery1/pc5.jpg" class="popup" title="GALLERY" longdesc="<p>Data</p>" />
+						<div id="ptext">
+						<p class="common">Data.</p>
+						</div>	
+					</div>
+					<div id="space">
+					</div>
+				</div>
+				
+				<div id="galleryimg">
+					<div id="p1">
+						<img src="Images/gallery/gallery1/pc6.jpg" width="308" height="204" alt="" name="Images/gallery/gallery1/pc6.jpg" class="popup" title="GALLERY" longdesc="<p>Data</p>" />
+						<div id="ptext">
+						<p class="common">Data</p>
+						</div>	
+					</div>
+					<div id="space">
+					</div>
+				</div>
+				
+				<div id="galleryimg">
+					<div id="p1">
+						<img src="Images/gallery/gallery1/pc7.jpg" width="308" height="435" alt="" name="Images/gallery/gallery1/pc7.jpg" class="popup" title="GALLERY" longdesc="<p>Data</p>" />
+						<div id="ptext">
+						<p class="common">Data</p>
+						</div>	
+					</div>
+					<div id="space">
+					</div>
+				</div>
+				
+				<div id="galleryimg">
+					<div id="p1">
+						<img src="Images/gallery/gallery1/pc8.jpg" width="308" height="204" alt="" name="Images/gallery/gallery1/pc8.jpg" class="popup" title="GALLERY" longdesc="<p>Data</p>" />
+						<div id="ptext">
+						<p class="common">Data</p>
+						</div>	
+					</div>
+					<div id="space">
+					</div>
+				</div>
+				
+				<div id="galleryimg">
+					<div id="p1">
+						<img src="Images/gallery/gallery1/pc9.jpg" width="308" height="204" alt="" name="Images/gallery/gallery1/pc9.jpg" class="popup" title="GALLERY" longdesc="<p>Data</p>" />
+						<div id="ptext">
+						<p class="common">Data</p>
+						</div>	
+					</div>
+					<div id="space">
+					</div>
+				</div>
+				
+				<div id="galleryimg">
+					<div id="p1">
+						<img src="Images/gallery/gallery1/pc10.jpg" width="308" height="435" alt="" name="Images/gallery/gallery1/pc10.jpg" class="popup" title="GALLERY" longdesc="<p>Data</p>" />
+						<div id="ptext">
+						<p class="common">Data</p>
+						</div>	
+					</div>
+					<div id="space">
+					</div>
+				</div>
+				
+				<div id="galleryimg">
+					<div id="p1">
+						<img src="Images/gallery/gallery1/pc11.jpg" width="308" height="204" alt="" name="Images/gallery/gallery1/pc11.jpg" class="popup" title="GALLERY" longdesc="<p>Data.</p>" />
+						<div id="ptext">
+						<p class="common">Data</p>
+						</div>	
+					</div>
+					<div id="space">
+					</div>
+				</div>	
+			</div>
+			
+				<div id="photocenter">
+				
+					<div id="galleryimg">
+					<div id="p1">
+						<img src="Images/gallery/gallery1/pc12.jpg" width="308" height="435" alt="" name="Images/gallery/gallery1/pc12.jpg" class="popup" title="GALLERY" longdesc="<p>Data</p>" />
+						<div id="ptext">
+						<p class="common">Data</p>
+						</div>	
+					</div>
+					<div id="space">
+					</div>
+				</div>
+				
+				<div id="galleryimg">
+					<div id="p1">
+						<img src="Images/gallery/gallery1/pc13.jpg" width="308" height="204" alt="" name="Images/gallery/gallery1/pc13.jpg" class="popup" title="GALLERY" longdesc="<p>Data</p>" />
+						<div id="ptext">
+						<p class="common">Data</p>
+						</div>	
+					</div>
+					<div id="space">
+					</div>
+				</div>
+				
+				<div id="galleryimg">
+					<div id="p1">
+						<img src="Images/gallery/gallery1/pc14.jpg" width="308" height="435" alt="" name="Images/gallery/gallery1/pc14.jpg" class="popup" title="GALLERY" longdesc="<p>Data</p>" />
+						<div id="ptext">
+						<p class="common">Data</p>
+						</div>	
+					</div>
+					<div id="space">
+					</div>
+				</div>
+				
+				<div id="galleryimg">
+					<div id="p1">
+						<img src="Images/gallery/gallery1/pc15.jpg" width="308" height="204" alt="" name="Images/gallery/gallery1/pc15.jpg" class="popup" title="GALLERY" longdesc="<p>Data</p>" />
+						<div id="ptext">
+						<p class="common">Data</p>
+						</div>	
+					</div>
+					<div id="space">
+					</div>
+				</div>
+				
+				<div id="galleryimg">
+					<div id="p1">
+						<img src="Images/gallery/gallery1/pc16.jpg" width="308" height="204" alt="" name="Images/gallery/gallery1/pc16.jpg" class="popup" title="GALLERY" longdesc="<p>Data</p>" />
+						<div id="ptext">
+						<p class="common">Data</p>
+						</div>	
+					</div>
+					<div id="space">
+					</div>
+				</div>
+				
+				<div id="galleryimg">
+					<div id="p1">
+						<img src="Images/gallery/gallery1/pc17.jpg" width="308" height="435" alt="" name="Images/gallery/gallery1/pc17.jpg" class="popup" title="GALLERY" longdesc="<p>Data</p>" />
+						<div id="ptext">
+						<p class="common">Data</p>
+						</div>	
+					</div>
+					<div id="space">
+					</div>
+				</div>
+				
+				<div id="galleryimg">
+					<div id="p1">
+						<img src="Images/gallery/gallery1/pc18.jpg" width="308" height="204" alt="" name="Images/gallery/gallery1/pc18.jpg" class="popup" title="GALLERY" longdesc="<p>Data</p>" />
+						<div id="ptext">
+						<p class="common">Data.</p>
+						</div>	
+					</div>
+					<div id="space">
+					</div>
+				</div>
+				
+				<div id="galleryimg">
+					<div id="p1">
+						<img src="Images/gallery/gallery1/pc19.jpg" width="308" height="204" alt="" name="Images/gallery/gallery1/pc19.jpg" class="popup" title="GALLERY" longdesc="<p>Data</p>" />
+						<div id="ptext">
+						<p class="common">Data</p>
+						</div>	
+					</div>
+					<div id="space">
+					</div>
+				</div>
+				
+				<div id="galleryimg">
+					<div id="p1">
+						<img src="Images/gallery/gallery1/pc20.jpg" width="308" height="435" alt="" name="Images/gallery/gallery1/pc20.jpg" class="popup" title="GALLERY" longdesc="<p>Data</p>" />
+						<div id="ptext">
+						<p class="common">Data</p>
+						</div>	
+					</div>
+					<div id="space">
+					</div>
+				</div>
+				
+				<div id="galleryimg">
+					<div id="p1">
+						<img src="Images/gallery/gallery1/pc21.jpg" width="308" height="204" alt="" name="Images/gallery/gallery1/pc21.jpg" class="popup" title="GALLERY" longdesc="<p>Data</p>" />
+						<div id="ptext">
+						<p class="common">Data</p>
+						</div>	
+					</div>
+					<div id="space">
+					</div>
+				</div>
+				
+				</div>
+				<div id="photoright">
+				
+					<div id="galleryimg">
+					<div id="p1">
+						<img src="Images/gallery/gallery1/pc22.jpg" width="308" height="204" alt="" name="Images/gallery/gallery1/pc22.jpg" class="popup" title="GALLERY" longdesc="<p>Data.</p>" />
+						<div id="ptext">
+						<p class="common">Data</p>
+						</div>	
+					</div>
+					<div id="space">
+					</div>
+				</div>
+				
+				<div id="galleryimg">
+					<div id="p1">
+						<img src="Images/gallery/gallery1/pc23.jpg" width="308" height="204" alt="" name="Images/gallery/gallery1/pc23.jpg" class="popup" title="GALLERY" longdesc="<p>Data.</p>" />
+						<div id="ptext">
+						<p class="common">Data</p>
+						</div>	
+					</div>
+					<div id="space">
+					</div>
+				</div>
+				
+				<div id="galleryimg">
+					<div id="p1">
+						<img src="Images/gallery/gallery1/pc24.jpg" width="308" height="204" alt="" name="Images/gallery/gallery1/pc24.jpg" class="popup" title="GALLERY" longdesc="<p>Data</p>" />
+						<div id="ptext">
+						<p class="common">Data</p>
+						</div>	
+					</div>
+					<div id="space">
+					</div>
+				</div>
+				
+				<div id="galleryimg">
+					<div id="p1">
+						<img src="Images/gallery/gallery1/pc25.jpg" width="308" height="204" alt="" name="Images/gallery/gallery1/pc25.jpg" class="popup" title="GALLERY" longdesc="<p>Data</p>" />
+						<div id="ptext">
+						<p class="common">Data</p>
+						</div>	
+					</div>
+					<div id="space">
+					</div>
+				</div>
+				
+				<div id="galleryimg">
+					<div id="p1">
+						<img src="Images/gallery/gallery1/pc26.jpg" width="308" height="204" alt="" name="Images/gallery/gallery1/pc26.jpg" class="popup" title="GALLERY" longdesc="<p>Data</p>" />
+						<div id="ptext">
+						<p class="common">Data</p>
+						</div>	
+					</div>
+					<div id="space">
+					</div>
+				</div>
+				
+				<div id="galleryimg">
+					<div id="p1">
+						<img src="Images/gallery/gallery1/pc27.jpg" width="308" height="204" alt="" name="Images/gallery/gallery1/pc27.jpg" class="popup" title="GALLERY" longdesc="<p>Data</p>" />
+						<div id="ptext">
+						<p class="common">Data</p>
+						</div>	
+					</div>
+					<div id="space">
+					</div>
+				</div>
+				
+				<div id="galleryimg">
+					<div id="p1">
+						<img src="Images/gallery/gallery1/pc28.jpg" width="308" height="204" alt="" name="Images/gallery/gallery1/pc28.jpg" class="popup" title="GALLERY" longdesc="<p>Data</p>" />
+						<div id="ptext">
+						<p class="common">Data</p>
+						</div>	
+					</div>
+					<div id="space">
+					</div>
+				</div>
+				
+				<div id="galleryimg">
+					<div id="p1">
+						<img src="Images/gallery/gallery1/pc29.jpg" width="308" height="435" alt="" name="Images/gallery/gallery1/pc29.jpg" class="popup" title="GALLERY" longdesc="<p>Data</p>" />
+						<div id="ptext">
+						<p class="common">Data</p>
+						</div>	
+					</div>
+					<div id="space">
+					</div>
+				</div>
+				
+				<div id="galleryimg">
+					<div id="p1">
+						<img src="Images/gallery/gallery1/pc30.jpg" width="308" height="204" alt="" name="Images/gallery/gallery1/pc30.jpg" class="popup" title="GALLERY" longdesc="<p>Data</p>" />
+						<div id="ptext">
+						<p class="common">Data</p>
+						</div>	
+					</div>
+					<div id="space">
+					</div>
+				</div>
+				
+				<div id="galleryimg">
+					<div id="p1">
+						<img src="Images/gallery/gallery1/pc31.jpg" width="308" height="204" alt="" name="Images/gallery/gallery1/pc31.jpg" class="popup" title="GALLERY" longdesc="<p>Data</p>" />
+						<div id="ptext">
+						<p class="common">Data.</p>
+						</div>	
+					</div>
+					<div id="space">
+					</div>
+				</div>
+				
+				<div id="galleryimg">
+					<div id="p1">
+						<img src="Images/gallery/gallery1/pc32.jpg" width="308" height="204" alt="" name="Images/gallery/gallery1/pc32.jpg" class="popup" title="GALLERY" longdesc="<p>Data</p>" />
+						<div id="ptext">
+						<p class="common">Data</p>
+						</div>	
+					</div>
+					<div id="space">
+					</div>
+				</div>
+				
+				<div id="galleryimg">
+					<div id="p1">
+						<img src="Images/gallery/gallery1/pc33.jpg" width="308" height="435" alt="" name="Images/gallery/gallery1/pc33.jpg" class="popup" title="GALLERY" longdesc="<p>Data</p>" />
+						<div id="ptext">
+						<p class="common">Data</p>
+						</div>	
+					</div>
+					<div id="space">
+					</div>
+				</div>
+				
+				<div id="galleryimg">
+					<div id="p1">
+						<img src="Images/gallery/gallery1/pc34.jpg" width="308" height="204" alt="" name="Images/gallery/gallery1/pc34.jpg" class="popup" title="GALLERY" longdesc="<p>Data</p>" />
+						<div id="ptext">
+						<p class="common">Data.</p>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+		
+	
+</body>
+</html>
+	
